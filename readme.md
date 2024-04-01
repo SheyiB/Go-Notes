@@ -27,7 +27,13 @@ This section will document my learnings day by day as I progress through the Go 
 - It also features the Goformatter, and a testing framework
 - Finally it's open source
 
-- I had issues setting up Go on my Kali Linux. I'll try again tomorrow
+- I had issues setting up Go on my Kali Linux. I'll try again tomorrow ...update, I go it! Thanks to Maxat Akbanov on Hashnode
+
+- So with that being done, I printed my first `Jesus is Lord`, more like your typical "Hello world". I used fmt. I imported the `fmt` package and called it in what looked like a function and there was this package main at the top. Println is what was used to print the message. This language seems to combine a bit of java and c++ syntax, maybe just java sha. I ran it using `go run .`
+
+- Forgot to add, before creating a `hello.go` file i ran `go mod init example/hello` to set up the module file which is like the package.json file, if you're coming from javascript
+
+- I'm so gassed 🕺️🕺️🕺️🕺️🥳️🥳️🥳️!!! Goodnight guys
 
 ### Day 2 (April 2, 2024)
 
