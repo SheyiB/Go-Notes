@@ -37,8 +37,24 @@ This section will document my learnings day by day as I progress through the Go 
 
 ### Day 2 (April 2, 2024)
 
-- ...
-- ...
+- I did not do much today, was busy working on a project, but still made little time
+- Learnt about importing packages, checked a rsc.io for packages
+- Worked with quote. Had issues with compiling, found a solution by setting my current user as root
+
+### Day 3 (April 3, 2024)
+
+- Today I revisited what I learnt yesterday and redid the example. Basically I imported a quote module and used one of it's features `.go()`. That returned a message which I printed.
+- Next was to actually install the package so I ran `go mod tidy`. This installed the package and enabled my program to run.  These packages are seen in the `go.mod` and a more extensible one is seen in the `go.sum`. I think with how this relates to js it's like the `package.json` and `package.lock.json` files
+- Furthermore I learnt how to create my own package which can be reused.
+- Started by writing a function which took in a string and returned a string. Learnt about how to add types to function inputs and specify function return type
+- Also learnt about how to print a formatted message(message that has a variable in it)
+- Also learnt that *a function whose name starts with capital letter can be called by a function not in the same package* - This is the `exported name` concept
+- In Go you can create a variable and use it at the same time like this `:=`
+
+### Day 4 (April 4, 2024)
+
+- Today I revisited what I learnt yesterday which was how to import a package you created. I had issues running it yesterday, but it worked today
+-
 
 ## 🧠 Key Concepts
 
@@ -55,6 +71,8 @@ Here are some nuggets I've picked up:
 - **Short variable declaration**: A concise way to declare variables.
 - **Type inference**: Letting Go figure out the data type for us.
 - **Multiple assignment**: Assigning values to multiple variables in one go.
+- **Print Statements**
+- **Functions**
 
 ## 📚 Resources
 
