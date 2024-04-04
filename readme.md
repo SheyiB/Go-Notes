@@ -54,25 +54,19 @@ This section will document my learnings day by day as I progress through the Go 
 ### Day 4 (April 4, 2024)
 
 - Today I revisited what I learnt yesterday which was how to import a package you created. I had issues running it yesterday, but it worked today
--
+- Today I learnt about error handling, how to check for an error case using an if statement and the create an error using the error module. Intersting that to create a new error in go, you say `errors.New()` unlike Js that says `new Error()`
+- I also learnt how to check for errors and log them using the log module. It's intersting that in go when logging errors you can add a prefix and disable extra info from showing
 
-## 🧠 Key Concepts
-
-During my Golang adventure, I've encountered some fascinating concepts:
-
-- **Go** is a statically typed language.
-- It boasts built-in support for **concurrency**.
-- The **simple and clean syntax** of Go makes it a joy to work with.
-
-## 🌱 New Things Learned
+## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
 
-- **Short variable declaration**: A concise way to declare variables.
-- **Type inference**: Letting Go figure out the data type for us.
-- **Multiple assignment**: Assigning values to multiple variables in one go.
+- **Short variable declaration**
+- **Type inference**: function & variables
 - **Print Statements**
 - **Functions**
+- **Error Handling and logging**
+- **If statements**
 
 ## 📚 Resources
 
