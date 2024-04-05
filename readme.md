@@ -57,6 +57,15 @@ This section will document my learnings day by day as I progress through the Go 
 - Today I learnt about error handling, how to check for an error case using an if statement and the create an error using the error module. Intersting that to create a new error in go, you say `errors.New()` unlike Js that says `new Error()`
 - I also learnt how to check for errors and log them using the log module. It's intersting that in go when logging errors you can add a prefix and disable extra info from showing
 
+### Day 5 (April 5, 2024)
+
+- Today was a continuation of yesterday's lesson. I worked with the random function
+- Learnt about Go slice, which is an array of dynamic size. So I created a slice of messages, stored in a variable and using the `len`(length) of this slice, generated a random integer within this value and returned the slice[index of randomly gen number]
+- This randomly gen message then gets printed. Interestingly, Go uses the same method as python for getting the length of an array. Similar syntaxes everywhere, even for getting value at index.
+- Ran into an error, in `go-slice` every item must end with a `comma(,)`. Interesting
+- Although I've learnt this before i was reminded that in go:
+- `functions with small letters cannot be exported`
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
@@ -67,6 +76,9 @@ Here are some nuggets I've picked up:
 - **Functions**
 - **Error Handling and logging**
 - **If statements**
+- **Random Module**
+- **Len (Get length of an array)**
+- **Go Slice**
 
 ## 📚 Resources
 
