@@ -67,7 +67,7 @@ This section will document my learnings day by day as I progress through the Go 
 
 ### Day 6 (April 6, 2024)
 
-- Today basically I created another function that took in a slice of names and returned greetings (the function created yesterday) for each name
+- Today basically I created another function that took in a slice of names, looped through each name and returned greetings (the function created yesterday) for each name. The result was returned in a map
 - I learnt about backward compatibility i.e rather than modifying your function, create a new one that builds on the existing function
 - Also learn about the range tool, it returns an integer(postion of the item) and a value. Here I also learnt about the `Go blank` identifier which is used to ignore a value.
 - Learnt about map. Which is more like the dictionary in Python. It's simply a key, value pair, and you can define the type like this `map[string]string` which simply means the key is a string and the value is a string
