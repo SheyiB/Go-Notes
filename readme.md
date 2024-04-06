@@ -63,8 +63,15 @@ This section will document my learnings day by day as I progress through the Go 
 - Learnt about Go slice, which is an array of dynamic size. So I created a slice of messages, stored in a variable and using the `len`(length) of this slice, generated a random integer within this value and returned the slice[index of randomly gen number]
 - This randomly gen message then gets printed. Interestingly, Go uses the same method as python for getting the length of an array. Similar syntaxes everywhere, even for getting value at index.
 - Ran into an error, in `go-slice` every item must end with a `comma(,)`. Interesting
-- Although I've learnt this before i was reminded that in go:
-- `functions with small letters cannot be exported`
+- Although I've learnt this before i was reminded that in go: `functions with small letters cannot be exported`
+
+### Day 6 (April 6, 2024)
+
+- Today basically I created another function that took in a slice of names and returned greetings (the function created yesterday) for each name
+- I learnt about backward compatibility i.e rather than modifying your function, create a new one that builds on the existing function
+- Also learn about the range tool, it returns an integer(postion of the item) and a value. Here I also learnt about the `Go blank` identifier which is used to ignore a value.
+- Learnt about map. Which is more like the dictionary in Python. It's simply a key, value pair, and you can define the type like this `map[string]string` which simply means the key is a string and the value is a string
+- I also learnt about a for loop, updating a map and creating a slice of values.
 
 ## 🧠 Key Concepts & New Things Learned 🌱
 
@@ -79,6 +86,11 @@ Here are some nuggets I've picked up:
 - **Random Module**
 - **Len (Get length of an array)**
 - **Go Slice**
+- **For loop**
+- **Go Blank**
+- **Backward Compatibility**
+- **Go Maps**
+- **Range**
 
 ## 📚 Resources
 
