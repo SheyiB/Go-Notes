@@ -83,6 +83,7 @@ This section will document my learnings day by day as I progress through the Go 
 - In writing the test, the function to be tested is called and the output is checked to ensure it is what is required. One variable used was the `want`.
 - Tests that fail are logged using the `t.Fatalf()`
 - I also leant about `Logical OR operators` used like this `||`
+- Tests are ran using the `go test` command. You can also increase the details of the message shown using the `-v flag`
 
 ## 🧠 Key Concepts & New Things Learned 🌱
 
