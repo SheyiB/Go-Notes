@@ -73,6 +73,17 @@ This section will document my learnings day by day as I progress through the Go 
 - Learnt about map. Which is more like the dictionary in Python. It's simply a key, value pair, and you can define the type like this `map[string]string` which simply means the key is a string and the value is a string
 - I also learnt about a for loop, updating a map and creating a slice of values.
 
+### Day 7 (April 7, 2024)
+
+- Today I learnt about Writing tests in go
+- Testing in go can be done using the go `testing module`
+- In the test I did, I tested one of the perviously created function to ensure it returned a value.
+- Test files end with`_test.go` and test functions always start with a Capital letter
+- Test functions take in the pointer to the test package like this `(t *testing.T)`
+- In writing the test, the function to be tested is called and the output is checked to ensure it is what is required. One variable used was the `want`.
+- Tests that fail are logged using the `t.Fatalf()`
+- I also leant about `Logical OR operators` used like this `||`
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
@@ -91,6 +102,8 @@ Here are some nuggets I've picked up:
 - **Backward Compatibility**
 - **Go Maps**
 - **Range**
+- **Tests**
+- **Logical Operators**
 
 ## 📚 Resources
 
