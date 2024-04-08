@@ -85,6 +85,13 @@ This section will document my learnings day by day as I progress through the Go 
 - I also leant about `Logical OR operators` used like this `||`
 - Tests are ran using the `go test` command. You can also increase the details of the message shown using the `-v flag`
 
+### Day 8 (April 8, 2024)
+
+- Today I learnt about compiling modules
+- You can compile using go `go build` it creates and executable you can run anywhere
+- Interstingly you can install this executable using `go install` (after exporting the path where you code get built, you can check this using `go list -f '{{.Target}}'` and export using `export PATH=$PATH:/path/to/your/install/directory`)
+- Once this is done run `go install` with this, you compiled application can run anywhere on your system. You can open any directory and run your app. `Super COOOL!!!`
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
@@ -105,6 +112,7 @@ Here are some nuggets I've picked up:
 - **Range**
 - **Tests**
 - **Logical Operators**
+- **Compilation and Installation**
 
 ## 📚 Resources
 
