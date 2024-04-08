@@ -88,9 +88,9 @@ This section will document my learnings day by day as I progress through the Go 
 ### Day 8 (April 8, 2024)
 
 - Today I learnt about compiling modules
-- You can compile using go `go build` it creates and executable you can run anywhere
+- You can compile using `go build` it creates an executable you can run independently
 - Interstingly you can install this executable using `go install` (after exporting the path where you code get built, you can check this using `go list -f '{{.Target}}'` and export using `export PATH=$PATH:/path/to/your/install/directory`)
-- Once this is done run `go install` with this, you compiled application can run anywhere on your system. You can open any directory and run your app. `Super COOOL!!!`
+- Once this is done run `go install` with this, your compiled application can run anywhere on your system. You can open any directory and run your app. `Super COOOL!!!`
 
 ## 🧠 Key Concepts & New Things Learned 🌱
 
