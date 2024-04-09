@@ -92,6 +92,13 @@ This section will document my learnings day by day as I progress through the Go 
 - Interstingly you can install this executable using `go install` (after exporting the path where you code get built, you can check this using `go list -f '{{.Target}}'` and export using `export PATH=$PATH:/path/to/your/install/directory`)
 - Once this is done run `go install` with this, your compiled application can run anywhere on your system. You can open any directory and run your app. `Super COOOL!!!`
 
+### Day 9 (April 9, 2024)
+
+- Today I learnt about values types: string, integers, boolean, logical OR, AND.
+- I also learnt about variables and constants and how to add types to them. It's the same a js
+- I used the math module-sin.
+-In Go, a variable can be empty but a constant cant
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
@@ -113,6 +120,8 @@ Here are some nuggets I've picked up:
 - **Tests**
 - **Logical Operators**
 - **Compilation and Installation**
+- **Data Types**
+- **Variables and Constants**
 
 ## 📚 Resources
 
