@@ -107,6 +107,12 @@ This section will document my learnings day by day as I progress through the Go 
 - Go uses the traditional if, else if and else
 - I used these lessons to create a fizzbuzz program. I ran into an error. Apparently, when writing `else if`, the else if must be on the same line as the last `}` of the if statement or else if statement. With this i guess it's safe to say that there's some sort of pagiantion in go
 
+### Day 11 (April 11, 2024)
+
+- Todayyyyyyyyyyy, I learnt about building RESTful APIsssss!!! I'm so gassed
+- I used the Go gin package
+- I'll write more tomorrow, I'm behind schedule for today! Proud of my learnings so far
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
