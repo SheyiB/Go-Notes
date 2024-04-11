@@ -99,6 +99,14 @@ This section will document my learnings day by day as I progress through the Go 
 - I used the math module-sin.
 -In Go, a variable can be empty but a constant cant
 
+### Day 10 (April 10, 2024)
+
+- Today I learnt for loops properly, apparently there are no while loops. Go employs the java/c++ style of for loops, using a start value, end and increment `i=1; i<10; i++`
+- Also in go for loops, there are diffrent approaches, you can loop over a number, range, and even use the for loop without any condition to keep looping repeatedly. Here i also learnt about `break` and `continue`
+- Furthermore, I learnt about if_else in go. You do not need to put your conditions in parenthesis, just write them after your if statment, and your put the corresponsding action in the `{}`
+- Go uses the traditional if, else if and else
+- I used these lessons to create a fizzbuzz program. I ran into an error. Apparently, when writing `else if`, the else if must be on the same line as the last `}` of the if statement or else if statement. With this i guess it's safe to say that there's some sort of pagiantion in go
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
