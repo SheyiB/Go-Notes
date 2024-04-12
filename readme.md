@@ -115,6 +115,13 @@ This section will document my learnings day by day as I progress through the Go 
 - So about yesterday I learnt about creating structs which are like interfaces but much more
 - I also created endpoints for get, by id and post
 
+### Day 12 (April 12, 2024)
+
+- I learnt about arrays and slices, they're quite similar the major difference is array has fixed size while slice can be flexible
+- You can check len of an array, cap, copy array.
+- You can also create a slice using the `make` statement
+- I learnt about switch, the syntax is quite similar to js. One additional in go is you might not put a condition value you can use the switch and in the case put your conditions, this would make the switch work like a conventional if else statement
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
@@ -138,6 +145,7 @@ Here are some nuggets I've picked up:
 - **Compilation and Installation**
 - **Data Types**
 - **Variables and Constants**
+- **Switch**
 
 ## 📚 Resources
 
