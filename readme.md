@@ -112,6 +112,8 @@ This section will document my learnings day by day as I progress through the Go 
 - Todayyyyyyyyyyy, I learnt about building RESTful APIsssss!!! I'm so gassed
 - I used the Go gin package
 - I'll write more tomorrow, I'm behind schedule for today! Proud of my learnings so far
+- So about yesterday I learnt about creating structs which are like interfaces but much more
+- I also created endpoints for get, by id and post
 
 ## 🧠 Key Concepts & New Things Learned 🌱
 
