@@ -122,6 +122,11 @@ This section will document my learnings day by day as I progress through the Go 
 - You can also create a slice using the `make` statement
 - I learnt about switch, the syntax is quite similar to js. One additional in go is you might not put a condition value you can use the switch and in the case put your conditions, this would make the switch work like a conventional if else statement
 
+### Day 13 (April 13, 2024)
+
+- I learnt about maps which are like dictionaries in python. You can create maps by using the `make` keyword or `map`. I also learnt basic CRUD with maps
+- I also learnt abour range, using range with a array returns the index and value, range with map, returns key and value, range with string returns the string position(index) and the unicode of the string
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
