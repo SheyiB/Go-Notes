@@ -127,6 +127,11 @@ This section will document my learnings day by day as I progress through the Go 
 - I learnt about maps which are like dictionaries in python. You can create maps by using the `make` keyword or `map`. I also learnt basic CRUD with maps
 - I also learnt abour range, using range with a array returns the index and value, range with map, returns key and value, range with string returns the string position(index) and the unicode of the string
 
+### Day 14 (April 14, 2024)
+
+- I learnt about functions, adding return types, argument types.
+- I also learnt how to return multiple values, and also accept arguments of variable length
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
