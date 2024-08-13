@@ -132,6 +132,12 @@ This section will document my learnings day by day as I progress through the Go 
 - I learnt about functions, adding return types, argument types.
 - I also learnt how to return multiple values, and also accept arguments of variable length
 
+### Day 15 (August 13, 2024)
+
+- The prodigal son returns back to golang. What a timing, Apr,Aug..you might not notice, lol
+- So yeah, back at it, did revision of what I've learnt so far. My notes were quite handy, an encouragement to continue.
+- Revised from day 1 -6. Error handling seemed to be clearer now. Refreshed my memory on: Creating a go app, imports, loops, blanks, print, formatted prints, why go, slice and maps.
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
