@@ -138,6 +138,14 @@ This section will document my learnings day by day as I progress through the Go 
 - So yeah, back at it, did revision of what I've learnt so far. My notes were quite handy, an encouragement to continue.
 - Revised from day 1 -6. Error handling seemed to be clearer now. Refreshed my memory on: Creating a go app, imports, loops, blanks, print, formatted prints, why go, slice and maps.
 
+### Day 15 (April 28, 2025)
+
+- You would have thought the previous writing before this was bad now this is worse, almost a year.
+- I'm back for real this time, I have a strategy, I'm sorry Go baby.
+- Let's get it now, refreshed on some basics, printing, basic variables(const, var, int, string), and for loops( conditional, range, javascript style etc..)
+- Feels good
+
+
 ## 🧠 Key Concepts & New Things Learned 🌱
 
 Here are some nuggets I've picked up:
